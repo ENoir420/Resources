@@ -298,7 +298,7 @@
 		</Item>
 		<Item>
 			<kitName>1010_mansm8_modkit</kitName>
-			<id value="1010" />
+			<id value="1011" />
 			<kitType>MKT_SPECIAL</kitType>
 			<visibleMods />
 			<linkMods />
