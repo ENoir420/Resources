@@ -1,0 +1,342 @@
+#statusHud {
+    width: 400px;
+    position: absolute;
+    bottom: 0.25%;
+    left: 1.5%;
+    /* border: 1px solid red; */
+}
+
+.hidden {
+    display: none;
+}
+
+.bar {
+	position: relative;
+    min-height: 25.5px;
+    float: left;
+
+
+    margin-right: 0.6%;
+    margin-left: 0.6%;
+}
+
+.barHealth {
+	position: relative;
+    min-height: 25.5px;
+    float: left;
+
+
+    margin-right: 0.6%;
+    margin-left: 0.6%;
+}
+
+.barOxy {
+	position: relative;
+    min-height: 25.5px;
+    float: left;
+
+
+    margin-right: 0.6%;
+    margin-left: 0.6%;
+}
+
+
+.voice {
+    position: absolute;
+    left: 101.5%;
+}
+.voice > div {
+    width: 4px;
+    height: 4px;
+    border: 2px solid #E6E6E5;
+    background: #E6E6E5;
+    border-radius: 50%;
+    /* background-color: rgba(0,0,0,0.4); */
+    margin-bottom: 2px;
+}
+
+.talking > div {
+    border: 2px solid yellow;
+    background: yellow;
+}
+
+.dev {
+    position: absolute;
+    left: 105.7%;
+}
+.dev > div {
+    width: 4px;
+    height: 4px;
+    border: 2px solid #F55713;
+    background: #F55713;
+    border-radius: 50%;
+    /* background-color: rgba(0,0,0,0.4); */
+    margin-bottom: 2px;
+}
+
+.devDebug {
+    position: absolute;
+    left: 109.5%;
+}
+.devDebug > div {
+    width: 4px;
+    height: 4px;
+    border: 2px solid #1B6CE6;
+    background: #1B6CE6;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.barIconHealth {
+	position: absolute;
+    width: 40%;
+	height: 40%;
+    bottom: 7px;
+	z-index: 99;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.barIconArmor {
+    position: absolute;
+    width: 40%;
+	height: 40%;
+    bottom: 7px;
+	z-index: 99;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.barIconYemek {
+    position: absolute;
+    width: 40%;
+	height: 40%;
+    bottom: 7px;
+	z-index: 99;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.barIconSu {
+    position: absolute;
+    width: 40%;
+	height: 40%;
+    bottom: 7px;
+	z-index: 99;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.barIconOxy {
+    position: absolute;
+    width: 40%;
+	height: 40%;
+    bottom: 7px;
+	z-index: 99;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.barIconStress {
+    position: absolute;
+    width: 40%;
+	height: 40%;
+    bottom: 7px;
+	z-index: 99;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.corners {
+    width: calc(12.5% - 4px);
+    height: 29px;
+    position: absolute;
+    z-index: 100;
+    margin: -2px;
+    opacity: 0;
+}
+
+.danger {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(88%) saturate(7076%) hue-rotate(358deg) brightness(100%) contrast(122%);
+}
+.dangerGrad {
+    background: rgb(207, 0, 0) !important;
+}
+
+
+
+@media(min-width:2100px){
+	.stat,
+	.stat .icon {
+		height: 44px;
+	}
+}
+
+@media(min-width:2200px){
+	.stat,
+	.stat .icon {
+		height: 46px;
+	}
+	.status{
+		width:280px;
+	}
+	.stat{
+		width:251px;
+	}
+	.stat span {
+		font-size: 14px;
+		line-height: 15px;
+		margin-top: 2px;
+	}
+}
+
+@media(min-width:2300px){
+	.stat,
+	.stat .icon {
+		height: 48px;
+	}
+}
+
+@media(min-width:2400px){
+	.stat,
+	.stat .icon {
+		height: 50px;
+	}
+	.status{
+		width:300px;
+	}
+	.stat{
+		width:271px;
+	}
+}
+
+@media(min-width:2500px){
+	.stat,
+	.stat .icon {
+		height: 52px;
+	}
+}
+
+
+@media(max-width:1800px){
+	.stat,
+	.stat .icon {
+		height: 38px;
+	}
+}
+
+@media(max-width:1700px){
+	.stat,
+	.stat .icon {
+		height: 36px;
+	}
+}
+
+@media(max-width:1600px){
+	.stat,
+	.stat .icon {
+		height: 34px;
+	}
+	.status{
+		width:240px;
+	}
+	.stat{
+		width:211px;
+	}
+	.stat span {
+		font-size: 12px;
+		line-height: 12px;
+		margin-top: 2px;
+	}
+	.stat .icon img {
+		margin-top: 2px;
+	}
+}
+
+@media(max-width:1500px){
+	.stat,
+	.stat .icon {
+		height: 32px;
+	}
+}
+
+@media(max-width:1400px){
+	.stat,
+	.stat .icon {
+		height: 30px;
+	}
+	.status{
+		width:225px;
+	}
+	.stat{
+		width:196px;
+		margin-bottom: 4px;
+	}
+}
+
+@media(max-width:1300px){
+	.stat,
+	.stat .icon {
+		height: 28px;
+	}
+}
+
+@media(max-width:1200px){
+	.stat,
+	.stat .icon {
+		height: 26px;
+	}
+	.stat span{
+		font-size:10px;
+		line-height: 10px;
+	}
+	.status{
+		width:200px;
+	}
+	.stat{
+		width:171px;
+	}
+}
+
+@media(max-width:1100px){
+	.stat,
+	.stat .icon {
+		height: 24px;
+	}
+}
+
+.progress {
+	-webkit-transition: 0.35s stroke-dashoffset;
+	-o-transition: 0.35s stroke-dashoffset;
+	transition: 0.35s stroke-dashoffset;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.backgroundCircle, .outer {
+	-webkit-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
