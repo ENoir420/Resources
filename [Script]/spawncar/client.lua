@@ -82,7 +82,7 @@ AddEventHandler( "wk:deleteVehicle", function()
             if ( GetPedInVehicleSeat( vehicle, -1 ) == ped ) then 
                 DeleteGivenVehicle( vehicle, numRetries )
             else 
-                Notify( "You must be in the driver's seat!" )
+              
             end 
         else
             local inFrontOfPlayer = GetOffsetFromEntityInWorldCoords( ped, 0.0, distanceToCheck, 0.0 )
@@ -91,7 +91,7 @@ AddEventHandler( "wk:deleteVehicle", function()
             if ( DoesEntityExist( vehicle ) ) then 
                 DeleteGivenVehicle( vehicle, numRetries )
             else 
-                Notify( "~y~You must be in or near a vehicle to delete it." )
+               
             end 
         end 
     end 
