@@ -1,7 +1,3 @@
---[[ Forza Horizon 4 Speedometer for FiveM ]]--
---[[ Author: Akkariin | Github: https://github.com/kasuganosoras/fh4speed ]]--
---[[ If you like this script, please give me a like on the fivem forum, thanks ]]--
-
 local isHide = false
 
 local carRPM, carSpeed, carGear, carIL, carAcceleration, carHandbrake, carBrakeABS, carLS_r, carLS_o, carLS_h

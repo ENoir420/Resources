@@ -5,7 +5,6 @@ game 'gta5'
 author 'okok#3488'
 description 'okokChat'
 
--- Leaked By: Leaking Hub | J. Snow | leakinghub.com
 
 ui_page 'web/ui.html'
 

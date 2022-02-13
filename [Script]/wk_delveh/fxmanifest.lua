@@ -1,9 +1,4 @@
--- Delete Vehicle script written by WolfKnight
--- With credit to Mr.Scammer, thers, Zanax and Konijima!
--- Version 1.1.0
-
--- Define the FX Server version and game type
-fx_version "bodacious"
+resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
 game "gta5"
 
 name "Delete Vehicles"
