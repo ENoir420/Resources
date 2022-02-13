@@ -129,6 +129,30 @@ files {
   'audioconfig/rb26dett_sounds.dat54.rel',
   'sfx/dlc_rb26dett/rb26dett.awc',
   'sfx/dlc_rb26dett/rb26dett_npc.awc',
+  'audioconfig/aston59v12_game',
+  'audioconfig/aston59v12_game.dat151.nametable',
+  'audioconfig/aston59v12_game.dat151.rel',
+  'audioconfig/aston59v12_sounds',
+  'audioconfig/aston59v12_sounds.dat54.nametable',
+  'audioconfig/aston59v12_sounds.dat54.rel',
+  'sfx/dlc_aston59v12/aston59v12.awc',
+  'sfx/dlc_aston59v12/aston59v12_npc.awc',
+  'audioconfig/lamavgineng_game',
+  'audioconfig/lamavgineng_game.dat151.nametable',
+  'audioconfig/lamavgineng_game.dat151.rel',
+  'audioconfig/lamavgineng_sounds',
+  'audioconfig/lamavgineng_sounds.dat54.nametable',
+  'audioconfig/lamavgineng_sounds.dat54.rel',
+  'sfx/dlc_lamavgineng/lamavgineng.awc',
+  'sfx/dlc_lamavgineng/lamavgineng_npc.awc',
+  'audioconfig/lamveneng_game',
+  'audioconfig/lamveneng_game.dat151.nametable',
+  'audioconfig/lamveneng_game.dat151.rel',
+  'audioconfig/lamveneng_sounds',
+  'audioconfig/lamveneng_sounds.dat54.nametable',
+  'audioconfig/lamveneng_sounds.dat54.rel',
+  'sfx/dlc_lamveneng/lamveneng.awc',
+  'sfx/dlc_lamveneng/lamveneng_npc.awc',
   
 }
 
@@ -177,6 +201,15 @@ data_file 'AUDIO_WAVEPACK' 'sfx/dlc_porschema2'
 data_file 'AUDIO_GAMEDATA' 'audioconfig/rb26dett_game.dat'
 data_file 'AUDIO_SOUNDDATA' 'audioconfig/rb26dett_sounds.dat'
 data_file 'AUDIO_WAVEPACK' 'sfx/dlc_rb26dett'
+data_file 'AUDIO_GAMEDATA' 'audioconfig/aston59v12_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/aston59v12_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_aston59v12'
+data_file 'AUDIO_GAMEDATA' 'audioconfig/lamavgineng_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/lamavgineng_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_lamavgineng'
+data_file 'AUDIO_GAMEDATA' 'audioconfig/lamveneng_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/lamveneng_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_lamveneng'
 
 client_script {
     'vehicle_names.lua'
